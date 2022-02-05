@@ -3,7 +3,7 @@ body {
     font-size: 12px;
     max-width: 960px;
     margin: auto;
-    background-color: rgb(211, 232, 240);
+    background-color: rgb(206, 229, 238);
 }
 
 h1 {
@@ -16,6 +16,7 @@ h1 {
 h2 {
     font-size: 1.5em;
     padding-bottom: 1em;
+    color: #ff0000
 }
 
 main { 
@@ -35,7 +36,9 @@ section {
 
 i {
     margin-right: .5em;
+    font-size: 1.2em;
 }
+
 
 p {
     margin: .2em auto
@@ -67,10 +70,15 @@ h1, h2 {
     width: 33.33%;
     padding: 5px;
   }
+  
+a{
+    font-size: 1.5em;
+}
 
   .column-header-title {
     float: left;
     width: 45%;
+    color: rgb(9, 95, 176);
   }
   
   /* Clearfix (clear floats) */
