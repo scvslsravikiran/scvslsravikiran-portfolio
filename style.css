@@ -3,7 +3,8 @@ body {
     font-size: 12px;
     max-width: 960px;
     margin: auto;
-    background-color: rgb(206, 229, 238);
+    /* background-color: rgb(206, 229, 238); */
+    background-color: #8ecae6
 }
 
 h1 {
@@ -16,7 +17,7 @@ h1 {
 h2 {
     font-size: 1.5em;
     padding-bottom: 1em;
-    color: #ff0000
+    color: #fb8500
 }
 
 main { 
@@ -28,6 +29,10 @@ main {
 header {
     text-align: center;
     margin: auto 2em;
+    /* background-color: #219ebc; */
+    background-color: darkcyan;
+    background-image: url("images/Linkedin-Banner.png");
+    background-blend-mode: soft-light;
 }
 
 section {
@@ -38,7 +43,6 @@ i {
     margin-right: .5em;
     font-size: 1.2em;
 }
-
 
 p {
     margin: .2em auto
@@ -57,7 +61,18 @@ h1, h2 {
 
 #mainLeft {
     border-right: 1px solid lightgray;
+    background-color: #023047;
+    color: antiquewhite;
+    font-size: 1.1em;
  }
+
+#mainRight {
+    border-right: 1px solid lightgray;
+    background-color: #023047;
+    color: antiquewhite;
+    font-size: 1.1em;
+ }
+
 
  img {
     border-radius: 50%;
@@ -71,14 +86,16 @@ h1, h2 {
     padding: 5px;
   }
   
-a{
-    font-size: 1.2em;
+#contact {
+color: antiquewhite;
 }
 
   .column-header-title {
     float: left;
     width: 45%;
-    color: rgb(9, 95, 176);
+    /* color: rgb(9, 95, 176); */
+    /* color: #023047; */
+    color: antiquewhite;
   }
   
   /* Clearfix (clear floats) */
@@ -86,4 +103,16 @@ a{
     content: "";
     clear: both;
     display: table;
+  }
+
+  .fas {
+    color: aqua;
+    font-size: small;
+  }
+
+  .fab , .fa , a{
+    color: antiquewhite;
+    font-size: 1.2em;
+    font-weight: bold;
+    
   }
