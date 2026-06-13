@@ -1,269 +1,719 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <title>S C V S L S Ravi Kiran Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>SCVSLS Ravi Kiran | Associate Principal</title>
 </head>
-
 <body>
-    <header id="header">
-        <!-- resume header with your name and title -->
-        <div class="row-header">
-            <hr />
-            <div class="column-header">
-                <img src="images/SRK-Headshot.jpg" alt="SCVSLS Ravi Kiran">
+
+    <!-- NAVBAR -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">SRK</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="images/SRK-Headshot.png" alt="SCVSLS Ravi Kiran">
             </div>
-            <div class="column-header-title">
-                <h1><b>S C V S L S Ravi Kiran</b></h1>
-                <h4>Data Science | Machine Learning | Internet of Things Enthusiast.</h4>
-                <hr />
-                <b><i>Senior Specialist in Cloud Engineering @ LTIMindtree</i></b>
-                <hr>
+            <div class="hero-text">
+                <p class="hero-greeting">Hi, I&#39;m</p>
+                <h1>S C V S L S Ravi Kiran</h1>
+                <h2 class="hero-title">Associate Principal</h2>
+                <p class="hero-subtitle">Security &amp; Incident Management &nbsp;|&nbsp; Automation &amp; Analytics &nbsp;|&nbsp; Data Science &amp; AI</p>
+                <p class="hero-company"><i class="fas fa-map-marker-alt"></i> LTM &middot; Hyderabad, India</p>
+                <div class="hero-social">
+                    <a href="mailto:scvslscvr@gmail.com" title="Email"><i class="fa fa-envelope"></i></a>
+                    <a href="tel:+919493930891" title="Phone"><i class="fa fa-phone"></i></a>
+                    <a href="https://github.com/scvslsravikiran" title="GitHub" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/scvsls-ravikiran/" title="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.researchgate.net/profile/Ravi-Kiran-S-C-V-S-L-S" title="ResearchGate" target="_blank" rel="noopener"><i class="fab fa-researchgate"></i></a>
+                </div>
             </div>
         </div>
-        <div class="contact">
-            <h2 id="contact">CONTACT</h2>
-            <!-- contact info including social media -->
-
-            <i class="fa fa-mobile" aria-hidden="true"></i>
-            <b><i style="font-size: 1.3em; color: antiquewhite;">+91 94939 30891</i></b>
-            &nbsp;
-
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-            <a href="mailto:scvslscvr@gmail.com">scvslscvr@gmail.com</a>
-            &nbsp;
-
-            <i class="fab fa-github" aria-hidden="true"></i>
-            <a href="https://github.com/scvslsravikiran">scvslsravikiran</a>
-            &nbsp;
-
-            <i class="fab fa-linkedin" aria-hidden="true"></i>
-            <a href="https://www.linkedin.com/in/scvsls-ravikiran/">scvsls-ravikiran</a>
-            &nbsp;
-
-            <i class="fab fa-researchgate" aria-hidden="true"></i>
-            <a href="https://www.researchgate.net/profile/Ravi-Kiran-S-C-V-S-L-S">Ravi-Kiran-S-C-V-S-L-S</a>
-
+        <div class="hero-scroll">
+            <a href="#about" aria-label="Scroll down"><i class="fas fa-chevron-down"></i></a>
         </div>
-        <hr>
-    </header>
-    <main>
-        <article id="mainLeft">
-            <section>
-                <h2 id="mainRight-heading">ABOUT</h2>
-                <!-- about you -->
-                <p>IT Professional and Data Science Enthusiast with 6+ years of experience in managing complex projects
-                    in the Microsoft technology domain. I have successfully delivered solutions using Power Automate,
-                    SharePoint, Azure, Power BI, Dynamics 365, and other Microsoft products and services. I have a
-                    proven track record of leading cross-functional teams, communicating with stakeholders, and ensuring
-                    quality and timely delivery of projects. </p>
-                <br />
-                <p>Developed many projects and published as articles in International Journals in the field of the
-                    Internet of Things. Specialize in Automating tasks with Power platform and MS applications to ease
-                    day-to-day work, reporting for weekly/monthly analysis. Good experience in discussing with clients
-                    and end-users leads to improving productivity and providing relevant feedback / suggestions to
-                    Engineering teams. Possess a good knowledge of PowerShell, MS Power Platform along with Kusto (KQL)
-                    in handling large data sets and a deep interest in exploring these further to analyze & vizualize.
-                </p>
-                <br />
-                <p>I am passionate about learning new technologies and applying them to solve business problems. I am
-                    looking for a challenging and rewarding opportunity to leverage my skills and experience in a
-                    dynamic and innovative organization. </p>
-            </section>
+    </section>
 
-            <section>
-                <h2 id="mainRight-heading">WORK EXPERIENCE</h2>
-                <!-- your work experience -->
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title"><span>01.</span> About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I build cloud solutions, automate what shouldn&#39;t need a human, and turn data into decisions. With <strong>8+ years</strong> in the Microsoft technology domain, I operate at the intersection of cloud engineering, data science, and AI &mdash; delivering solutions that are scalable, reliable, and business-ready.</p>
+                    <br>
+                    <p>I&#39;ve successfully delivered enterprise solutions across <strong>Power Automate, SharePoint, Azure, Power BI, Dynamics 365</strong>, and the broader Microsoft ecosystem &mdash; leading cross-functional teams, managing stakeholders, and ensuring quality delivery from kickoff to go-live.</p>
+                    <br>
+                    <p>Currently deepening expertise in <strong>cloud security, intelligent automation, and applied AI</strong>. I&#39;m targeting leadership roles in Data Science and AI where hands-on Microsoft platform experience meets a sharp interest in building the next layer of intelligent systems.</p>
+                    <br>
+                    <p>Published researcher in international journals in the field of <strong>Internet of Things (IoT)</strong>, bridging academic knowledge with real-world engineering practice.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <span class="stat-number">8+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">40K+</span>
+                        <span class="stat-label">Users Served</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">4</span>
+                        <span class="stat-label">Publications</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Automations Built</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                <h3><b>Senior Specialist - Cloud Engineering</b></h3>
-                <h4>
-                    LTIMindtree (Mindtree) | Dec 2020 - Present
-                </h4>
-                <p>
-                    Demonstrated great Developer and Management skills in building End-to-End applications for service
-                    used by 40K+ users across the globe
-                </p>
-                <ul>
-                    <li>Provided business analysis and reporting solution to U.S. based client</li>
-                    <li>2 years of hands on experience on handling high priority customer reported incidents by
-                        troubleshooting/debugging to provide robust resolutions. </li>
-                    <li>Maintaining very good relationship with Engineering team about regression based on reported
-                        issues resulting in hold off the deployments to avoid critical outages/customer impacts</li>
-                    <li>Led a teams of 8 to support operations of the Product and provide enhanced customer experience
-                    </li>
-                    <li>Implemented Automation with PowerShell to create weekly effort tasks in Azure DevOps which
-                        reduced overall 3 hrs. of manual efforts across the team</li>
-                    <li>Created a Power BI dashboard to analyze the complete efforts of the team and identify the areas
-                        to reduce the efforts by automation</li>
-                    <li>Created an automated flow using MS Power Automate (flow) to send the complete list of Active
-                        tasks by EoW</li>
+    <!-- EXPERIENCE -->
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title"><span>02.</span> Work Experience</h2>
+            <div class="timeline">
 
-                </ul>
+                <!-- Associate Principal -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">May 2026 &ndash; Present</div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Associate Principal</h3>
+                            <span class="company-tag">LTM</span>
+                        </div>
+                        <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Hyderabad, India</p>
+                        <ul>
+                            <li>Own end-to-end resolution of mission-critical security and compliance escalations for enterprise customers</li>
+                            <li>SME for Microsoft Purview &mdash; Data Classification, Information Protection, and DLP across M365 environments</li>
+                            <li>Act as a trusted advisor to enterprise security and support teams during critical incidents</li>
+                            <li>Leverage AI tools including GitHub Copilot to build solutions for swift resolution of customer escalations</li>
+                            <li>Built 5+ automations using Power Automate and KQL for team hygiene maintenance and leadership tracking</li>
+                            <li>Mentor engineers and lead cross-functional collaboration during high-pressure and ambiguous scenarios</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Microsoft Purview</span><span>M365 Security</span><span>KQL</span><span>Power Automate</span><span>GitHub Copilot</span><span>AI Automation</span>
+                        </div>
+                    </div>
+                </div>
 
-                <br />
+                <!-- Senior Specialist (LTIMindtree) -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Aug 2023 &ndash; Apr 2026</div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Senior Specialist &mdash; Cloud Engineering</h3>
+                            <span class="company-tag">LTIMindtree</span>
+                        </div>
+                        <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Hyderabad, Telangana, India</p>
+                        <ul>
+                            <li>Took service ownership from scratch; stabilised CRI flow and introduced categorisation frameworks</li>
+                            <li>Consistently met 98% of SLAs by coordinating triage and resolution with customers</li>
+                            <li>Created PowerShell automation for Azure DevOps work-item creation &mdash; reduced 3+ hrs of weekly manual effort</li>
+                            <li>Built multiple Power BI dashboards for team-effort calculation and bandwidth tracking</li>
+                            <li>Managed stakeholder communication, project risks, governance, and progress reporting</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Azure DevOps</span><span>PowerShell</span><span>Power BI</span><span>Power Automate</span><span>KQL</span>
+                        </div>
+                    </div>
+                </div>
 
-                <h3><b>Software Engineer</b></h3>
-                <h4>
-                    MAQ Software | Jul 2018 - Dec 2020
-                </h4>
-                <p>
-                    Demonstrated great Developer and Management skills in building End-to-End applications for
-                    service used by 40K+ users across the globe
-                </p>
-                <ul>
-                    <li>Delivered business analysis and reporting solution to U.S. based client</li>
-                    <li>Led a team of 5 members, coached and supervised them to deliver effective solutions to the
-                        end-users. Received multiple appreciations from clients for demonstrating excellent skills in
-                        alerting production issues to Engineering team to prevent outages."</li>
-                    <li>Designed and Implementated CSAT (Customer SATisfaction Survey) application to gather feedback
-                        from end-users on the support requests</li>
-                    <li>Built interactive reports with Power BI to provide analysis of issues to stakeholders</li>
-                    <li>Used SQL server objects and SSIS packages to perform various ETL operations for developing BI
-                        solutions</li>
-                </ul>
+                <!-- Technical Specialist / Mindtree -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Dec 2020 &ndash; Aug 2023</div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Technical Specialist</h3>
+                            <span class="company-tag">Mindtree &rarr; LTIMindtree</span>
+                        </div>
+                        <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Hyderabad, Telangana, India</p>
+                        <ul>
+                            <li>Resolved 30+ critical issues by coordinating with Engineering team; filed bugs that improved product reliability</li>
+                            <li>Implemented automation for Sev 0/1/2 incident tracking via MS Teams notifications</li>
+                            <li>Led team of 8, prepared weekly/monthly SLA reports for leadership and stakeholders</li>
+                            <li>Ensured 95%+ Transitive SLA and productivity norms for the team individually and collectively</li>
+                            <li>Improved official product documentation based on new scenarios observed in customer escalations</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>SharePoint</span><span>Power Automate</span><span>Power BI</span><span>Azure</span><span>MS Teams</span>
+                        </div>
+                    </div>
+                </div>
 
-                <br />
+                <!-- MAQ Software Engineer -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jul 2018 &ndash; Dec 2020</div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Engineer</h3>
+                            <span class="company-tag">MAQ Software</span>
+                        </div>
+                        <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Hyderabad, India</p>
+                        <ul>
+                            <li>Delivered business analysis and reporting solutions to a U.S.-based client serving 40K+ global users</li>
+                            <li>Led a team of 5; mentored and supervised to deliver effective solutions</li>
+                            <li>Designed and implemented CSAT (Customer Satisfaction Survey) application for support-request feedback</li>
+                            <li>Built interactive Power BI reports for stakeholder analysis of issues and trends</li>
+                            <li>Performed ETL operations with SQL Server objects and SSIS packages for BI development</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Power BI</span><span>SQL Server</span><span>SSIS</span><span>SharePoint</span><span>ETL</span>
+                        </div>
+                    </div>
+                </div>
 
-                <h3><b>Software Engineer Intern</b></h3>
-                <h4>
-                    MAQ Software | Jan 2018 - Jul 2018
-                </h4>
-                <p>
-                    Provided business analysis and reporting solution to U.S. based client by using SQL server objects
-                    and SSIS packages to perform various ETL operations.
-                </p>
-                <ul>
-                    <li>Built interactive web pages using HTML, CSS and JS and embedded in SharePoint Online</li>
-                    <li>Stored the SharePoint webpage data into SharePoint Lists by using REST API's and AJAX calls</li>
-                    <li>Created an automated system with PowerShell & Power BI to monitor the Power BI reports refresh
-                        and made the team's work faster by reducing manual efforts</li>
-                    <li>Created Stored Procedures and jobs in SQL Server to perform incremental data collection and
-                        storing into SQL DB</li>
-                    <li>Designed MS Power Automate workflow to process the data from the excel sheet into SQL DB</li>
-                    <li>Extracted data from various sources like Cosmos, Excel sheet, SharePoint Lists and loaded into
-                        SQL DB using ETL tools</li>
-                </ul>
+                <!-- MAQ Intern -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jan 2018 &ndash; Jul 2018</div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Engineer Intern</h3>
+                            <span class="company-tag">MAQ Software</span>
+                        </div>
+                        <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Hyderabad, India</p>
+                        <ul>
+                            <li>Built interactive web pages using HTML, CSS, and JS embedded in SharePoint Online via REST APIs &amp; AJAX</li>
+                            <li>Created automated Power BI report-refresh monitoring using PowerShell &mdash; eliminated manual checks</li>
+                            <li>Wrote Stored Procedures and SQL jobs for incremental data collection</li>
+                            <li>Designed Power Automate workflows to process Excel data into SQL DB; extracted from Cosmos, SharePoint, and Excel</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>HTML/CSS/JS</span><span>PowerShell</span><span>SQL Server</span><span>Power Automate</span><span>REST APIs</span>
+                        </div>
+                    </div>
+                </div>
 
+            </div>
+        </div>
+    </section>
 
-            </section>
+    <!-- SKILLS -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title"><span>03.</span> Skills &amp; Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud &amp; Platform</h3>
+                    <div class="skill-tags">
+                        <span>Microsoft Azure</span>
+                        <span>Azure DevOps</span>
+                        <span>Microsoft 365</span>
+                        <span>SharePoint Online</span>
+                        <span>Dynamics 365</span>
+                        <span>Microsoft Purview</span>
+                        <span>Azure Data Explorer</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-bolt"></i> Power Platform &amp; Automation</h3>
+                    <div class="skill-tags">
+                        <span>Power Automate</span>
+                        <span>Power BI</span>
+                        <span>Power Apps</span>
+                        <span>Power Virtual Agent</span>
+                        <span>PowerShell</span>
+                        <span>KQL (Kusto)</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming &amp; Data</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>SQL Server</span>
+                        <span>SSIS / ETL</span>
+                        <span>HTML &amp; CSS</span>
+                        <span>JavaScript</span>
+                        <span>REST APIs</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-shield-alt"></i> Security &amp; Compliance</h3>
+                    <div class="skill-tags">
+                        <span>Microsoft Purview DLP</span>
+                        <span>Information Protection</span>
+                        <span>Data Classification</span>
+                        <span>Incident Management</span>
+                        <span>M365 Security</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-robot"></i> AI &amp; Hardware</h3>
+                    <div class="skill-tags">
+                        <span>GitHub Copilot</span>
+                        <span>AI Automation</span>
+                        <span>Arduino</span>
+                        <span>Raspberry Pi</span>
+                        <span>IoT Solutions</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-users"></i> Leadership &amp; Analytics</h3>
+                    <div class="skill-tags">
+                        <span>Data Analysis</span>
+                        <span>Statistical Analysis</span>
+                        <span>Team Management</span>
+                        <span>Stakeholder Mgmt</span>
+                        <span>Agile / DevOps</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- CERTIFICATIONS -->
+    <section id="certifications">
+        <div class="container">
+            <h2 class="section-title"><span>04.</span> Certifications</h2>
+            <div class="cert-grid">
 
-        </article>
-        <article id="mainRight">
-            <section>
-                <h2>PAPER PUBLICATIONS</h2>
+                <!-- Microsoft Professional Certifications -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-shield-alt"></i></div>
+                    <div>
+                        <h3>Azure Analytics Engineer Associate</h3>
+                        <p>Microsoft</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-lock"></i></div>
+                    <div>
+                        <h3>Implement Information Protection &amp; DLP using Microsoft Purview</h3>
+                        <p>Microsoft</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <div>
+                        <h3>Fabric Analytics Engineer Associate</h3>
+                        <p>Microsoft</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-chart-bar"></i></div>
+                    <div>
+                        <h3>Analyzing and Visualizing Data with Power BI</h3>
+                        <p>Microsoft &middot; Exam 778</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-chart-line"></i></div>
+                    <div>
+                        <h3>Get Started Using Power BI</h3>
+                        <p>Microsoft</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-database"></i></div>
+                    <div>
+                        <h3>Get Started with Microsoft Azure Databricks</h3>
+                        <p>Microsoft</p>
+                    </div>
+                </div>
 
-                <p>
-                    <b style="font-size: 1.1em;">Implementation of Smart Garbage Monitoring System using IoT &nbsp;</b>
-                    <a href="https://ijarcce.com/wp-content/uploads/2019/02/IJARCCE.2019.8124.pdf"> <i
-                            class="fas fa-external-link-square-alt"></i></a>
-                </p>
-                <p>
-                    Jan, 2019: "International Journal of
-                    Advanced Research in Computer and Communication Engineering, Vol. 8, Issue. 1, pp. 107-112, 2019."
-                </p>
-                <br />
+                <!-- IBM / Coursera — Data Science -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-brain"></i></div>
+                    <div>
+                        <h3>Data Science Foundations Specialist</h3>
+                        <p>IBM / Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fab fa-python"></i></div>
+                    <div>
+                        <h3>Open Source Tools for Data Science</h3>
+                        <p>IBM / Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-question-circle"></i></div>
+                    <div>
+                        <h3>What is Data Science?</h3>
+                        <p>IBM / Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-project-diagram"></i></div>
+                    <div>
+                        <h3>Data Science Methodology</h3>
+                        <p>IBM / Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-chart-pie"></i></div>
+                    <div>
+                        <h3>Data Analysis with Python</h3>
+                        <p>IBM / Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-eye"></i></div>
+                    <div>
+                        <h3>Data Visualization with Python</h3>
+                        <p>IBM / Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-table"></i></div>
+                    <div>
+                        <h3>Databases and SQL for Data Science</h3>
+                        <p>IBM / Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-layer-group"></i></div>
+                    <div>
+                        <h3>Introduction to Data Science Specialization</h3>
+                        <p>IBM / Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-flask"></i></div>
+                    <div>
+                        <h3>Python for Applied Data Science</h3>
+                        <p>IBM / Coursera</p>
+                    </div>
+                </div>
 
-                <p>
-                    <b style="font-size: 1.1em;">Implementation of DevOps Architecture in the project development and
-                        deployment with help of tools &nbsp;</b>
-                    <a href="https://www.isroset.org/pdf_paper_view.php?paper_id=613&15-IJSRCSE-0833.pdf"> <i
-                            class="fas fa-external-link-square-alt"></i></a>
-                </p>
-                <p>
-                    Apr, 2018: "International Journal of Scientific Research in Computer Science and Engineering, Vol.6,
-                    Issue. 2,
-                    pp. 87-95, 2018."
-                </p>
-                <br />
+                <!-- Data Warehousing — University of Colorado / Coursera -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-warehouse"></i></div>
+                    <div>
+                        <h3>Data Warehousing for Business Intelligence Specialization</h3>
+                        <p>University of Colorado / Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-drafting-compass"></i></div>
+                    <div>
+                        <h3>Design and Build a Data Warehouse for Business Intelligence Administration</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-server"></i></div>
+                    <div>
+                        <h3>Database Management Essentials</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-sitemap"></i></div>
+                    <div>
+                        <h3>Data Warehouse Concepts, Design, and Data Integration</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-lightbulb"></i></div>
+                    <div>
+                        <h3>Business Intelligence Concepts, Tools, and Applications</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-plus-circle"></i></div>
+                    <div>
+                        <h3>Additional Database Support for Your Data Warehouse</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
 
-                <p>
-                    <b style="font-size: 1.1em;">Implementation of Home automation system using Smart Mirror &nbsp; </b>
-                    <a
-                        href="http://ijircce.com/admin/main/storage/app/pdf/7CqKMAJztdtS4EnL4VEkjw4AhV40zLqo8XW5Po5j.pdf">
-                        <i class="fas fa-external-link-square-alt"></i></a>
-                </p>
-                <p>
-                    Mar, 2018: "International Journal of
-                    Innovative Research in Computer and Communication Engineering, Vol. 6, Issue. 3, pp. 1863-1869,
-                    2018."
-                </p>
-                <br />
+                <!-- Python & Programming -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fab fa-python"></i></div>
+                    <div>
+                        <h3>Python for Data Science</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-code"></i></div>
+                    <div>
+                        <h3>Introduction to Python</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-calculator"></i></div>
+                    <div>
+                        <h3>Numpy with Python</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-terminal"></i></div>
+                    <div>
+                        <h3>Learn SQL: Querying Data with Transact-SQL</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-terminal"></i></div>
+                    <div>
+                        <h3>Learn SQL: Developing SQL Databases</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-database"></i></div>
+                    <div>
+                        <h3>Database Programming with SQL</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-project-diagram"></i></div>
+                    <div>
+                        <h3>Relational Database Design</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
 
-                <p>
-                    <b style="font-size: 1.1em;">Implementation of Smart Bus Tracking System Using Wi-Fi &nbsp; </b>
-                    <a
-                        href="http://ijircce.com/admin/main/storage/app/pdf/7CqKMAJztdtS4EnL4VEkjw4AhV40zLqo8XW5Po5j.pdf">
-                        <i class="fas fa-external-link-square-alt"></i></a>
-                </p>
-                <p>
-                    Jul, 2017: "International Journal of Innovative
-                    Research in Science, Engineering and Technology, Vol. 6, Issue. 7, pp. 12940-12946, 2017."
-                </p>
-            </section>
+                <!-- IoT & Hardware -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-microchip"></i></div>
+                    <div>
+                        <h3>The Raspberry Pi Platform and Python Programming for the Raspberry Pi</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-plug"></i></div>
+                    <div>
+                        <h3>Interfacing with the Raspberry Pi (Sensors)</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-wifi"></i></div>
+                    <div>
+                        <h3>Introduction to the Internet of Things and Embedded Systems</h3>
+                        <p>UC Irvine / Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-robot"></i></div>
+                    <div>
+                        <h3>The Arduino and C Programming</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
 
-            <section>
-                <h2>SKILLS</h2>
-                <!-- your skills AKA "buzzwords" -->
-                <!-- <p>Microsoft SQL Server, Microsoft Power BI, Azure DevOps, Git, Power Platform, SharePoint Online, Python, Microsoft Azure, HTML and CSS, Arduino, Raspberry Pi, MS Power Automate, MS Power Apps, MS Power Virtual Agent, Microsoft Dynamics user voice, Power Shell</p> -->
+                <!-- Linux & DevOps -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fab fa-linux"></i></div>
+                    <div>
+                        <h3>IT: My Linux Concepts</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fab fa-linux"></i></div>
+                    <div>
+                        <h3>Linux &amp; File Administration</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fab fa-git-alt"></i></div>
+                    <div>
+                        <h3>Git</h3>
+                        <p>Coursera</p>
+                    </div>
+                </div>
 
-                <ul>
-                    <li>Microsoft SQL Server
-                    <li>Microsoft Power BI</li>
-                    <li>Azure DevOps Git</li>
-                    <li>Power Platform</li>
-                    <li>SharePoint Online</li>
-                    <li>Python</li>
-                    <li>Microsoft Azure</li>
-                    <li>HTML and CSS</li>
-                    <li>Arduino</li>
-                    <li>Raspberry Pi</li>
-                    <li>MS Power Automate</li>
-                    <li>MS Power Apps</li>
-                    <li>MS Power Virtual Agent</li>
-                    <li>Microsoft Dynamics user voice</li>
-                    <li>Power Shell</li>
-                    <li>Azure Data Explorer (ADX)</li>
-                </ul>
+                <!-- Google -->
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fab fa-google"></i></div>
+                    <div>
+                        <h3>Google Analytics for Beginners</h3>
+                        <p>Google</p>
+                    </div>
+                </div>
 
-            </section>
+            </div>
+        </div>
+    </section>
 
-            <section>
-                <h2>EDUCATION</h2>
-                <!-- your education -->
-                <h3>Bachelor of Technology - Computer Science</h3>
-                <p>
-                    CVR College of Engineering, Jawaharlal Nehru Technological University, Hyderabad <br/> Percentage: 79% <br/> 2014 - 2018
-                </p>
-                
-                <br />
+    <!-- EDUCATION -->
+    <section id="education">
+        <div class="container">
+            <h2 class="section-title"><span>05.</span> Education</h2>
+            <div class="edu-grid">
+                <div class="edu-card">
+                    <div class="edu-year">2014 &ndash; 2018</div>
+                    <h3>B.Tech &mdash; Computer Science &amp; Engineering</h3>
+                    <p>CVR College of Engineering</p>
+                    <p class="edu-detail">Jawaharlal Nehru Technological University, Hyderabad</p>
+                    <span class="edu-badge">79%</span>
+                </div>
+                <div class="edu-card">
+                    <div class="edu-year">2012 &ndash; 2014</div>
+                    <h3>Intermediate (MPC)</h3>
+                    <p>Narayana Junior College</p>
+                    <p class="edu-detail">Board of Intermediate Education, Andhra Pradesh</p>
+                    <span class="edu-badge">91%</span>
+                </div>
+                <div class="edu-card">
+                    <div class="edu-year">2008 &ndash; 2012</div>
+                    <h3>Secondary School Education (SSC)</h3>
+                    <p>Bhashyam High School</p>
+                    <p class="edu-detail">Board of Secondary School Education AP, Hyderabad</p>
+                    <span class="edu-badge">8.5 CGPA</span>
+                </div>
+                <div class="edu-card">
+                    <div class="edu-year">May &ndash; Jul 2017</div>
+                    <h3>EXCITE 2017 &mdash; Product Engineering &amp; IoT</h3>
+                    <p>JNTU Hyderabad</p>
+                    <p class="edu-detail">Five-week IoT product engineering &amp; entrepreneurship program powered by HYSEA, TASK &amp; Hyderabad Hackers</p>
+                    <span class="edu-badge">Participant</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                <h3>Intermediate</h3>
-                <p>
-                    Narayana Junior College, Board of Intermediate Education Andhra Pradesh, Hyderabad <br/> Percentage: 91% <br/> 2012 - 2014
-                </p>
-                
-                <h3>Secondary School Education (SSC) </h3>
-                <p>
-                    Bhashyam High School, Board of Secondary School Education Andhra Pradesh, Hyderabad <br/> Percentage: 8.5 CGPA <br/> 2011 - 2012
-                </p>
+    <!-- PUBLICATIONS -->
+    <section id="publications">
+        <div class="container">
+            <h2 class="section-title"><span>06.</span> Research Publications</h2>
+            <div class="pub-list">
+                <div class="pub-card">
+                    <div class="pub-meta">Jan 2019 &middot; IJARCCE</div>
+                    <h3>Implementation of Smart Garbage Monitoring System using IoT</h3>
+                    <p>International Journal of Advanced Research in Computer and Communication Engineering, Vol. 8, Issue 1, pp. 107&ndash;112, 2019.</p>
+                    <a href="https://ijarcce.com/wp-content/uploads/2019/02/IJARCCE.2019.8124.pdf" target="_blank" rel="noopener" class="pub-link">Read Paper <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-meta">Apr 2018 &middot; IJSRCSE</div>
+                    <h3>Implementation of DevOps Architecture in Project Development and Deployment</h3>
+                    <p>International Journal of Scientific Research in Computer Science and Engineering, Vol. 6, Issue 2, pp. 87&ndash;95, 2018.</p>
+                    <a href="https://www.isroset.org/pdf_paper_view.php?paper_id=613&15-IJSRCSE-0833.pdf" target="_blank" rel="noopener" class="pub-link">Read Paper <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-meta">Mar 2018 &middot; IJIRCCE</div>
+                    <h3>Implementation of Home Automation System using Smart Mirror</h3>
+                    <p>International Journal of Innovative Research in Computer and Communication Engineering, Vol. 6, Issue 3, pp. 1863&ndash;1869, 2018.</p>
+                    <a href="http://ijircce.com/admin/main/storage/app/pdf/7CqKMAJztdtS4EnL4VEkjw4AhV40zLqo8XW5Po5j.pdf" target="_blank" rel="noopener" class="pub-link">Read Paper <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="pub-card">
+                    <div class="pub-meta">Jul 2017 &middot; IJIRSET</div>
+                    <h3>Implementation of Smart Bus Tracking System Using Wi-Fi</h3>
+                    <p>International Journal of Innovative Research in Science, Engineering and Technology, Vol. 6, Issue 7, pp. 12940&ndash;12946, 2017.</p>
+                    <a href="http://ijircce.com/admin/main/storage/app/pdf/7CqKMAJztdtS4EnL4VEkjw4AhV40zLqo8XW5Po5j.pdf" target="_blank" rel="noopener" class="pub-link">Read Paper <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            </section>
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements">
+        <div class="container">
+            <h2 class="section-title"><span>07.</span> Achievements</h2>
+            <div class="ach-grid">
+                <div class="ach-card">
+                    <div class="ach-icon"><i class="fas fa-star"></i></div>
+                    <div class="ach-year">Jun 2023</div>
+                    <h3>Shooting Star Award</h3>
+                    <p>Won in the Business Unit for extraordinary work and client appreciations at LTIMindtree</p>
+                </div>
+                <div class="ach-card">
+                    <div class="ach-icon"><i class="fas fa-trophy"></i></div>
+                    <div class="ach-year">Mar 2018</div>
+                    <h3>Best Project Award</h3>
+                    <p>Won Best Project Award in the Computer Science and Engineering Department</p>
+                </div>
+                <div class="ach-card">
+                    <div class="ach-icon"><i class="fas fa-award"></i></div>
+                    <div class="ach-year">Mar 2018</div>
+                    <h3>Client Appreciation</h3>
+                    <p>Received appreciation from the client for unexpected and on-time work delivery</p>
+                </div>
+                <div class="ach-card">
+                    <div class="ach-icon"><i class="fas fa-users"></i></div>
+                    <div class="ach-year">Multiple</div>
+                    <h3>Client Appreciations &mdash; MAQ Software</h3>
+                    <p>Received multiple appreciations for alerting production issues to Engineering team, preventing outages for 40K+ users</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <section>
-                <h2>ACHIEVEMENTS</h2>
-                <ul>
-                    <li><b>Jun, 23</b> Won <b>Shooting Star Award</b> in the Business Unit for extra-ordinary work and appreciations from the client</li>
-                    <li><b>Mar, 18</b> Received <b>appreciation</b> from the client for unexpected and on-time work delivery</li>
-                    <li><b>Mar, 18</b> Won <b>Best Project Award</b> in Computer Science and Engineering Department</li>
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="container contact-container">
+            <h2 class="section-title centered"><span>08.</span> Get In Touch</h2>
+            <p class="contact-intro">I&#39;m open to opportunities in data science, AI engineering, and analytics leadership. Let&#39;s connect if you&#39;re building at the intersection of data, AI, cloud, or security.</p>
+            <div class="contact-grid">
+                <a href="mailto:scvslscvr@gmail.com" class="contact-item">
+                    <i class="fa fa-envelope"></i><span>scvslscvr@gmail.com</span>
+                </a>
+                <a href="tel:+919493930891" class="contact-item">
+                    <i class="fa fa-phone"></i><span>+91 94939 30891</span>
+                </a>
+                <a href="https://www.linkedin.com/in/scvsls-ravikiran/" class="contact-item" target="_blank" rel="noopener">
+                    <i class="fab fa-linkedin"></i><span>scvsls-ravikiran</span>
+                </a>
+                <a href="https://github.com/scvslsravikiran" class="contact-item" target="_blank" rel="noopener">
+                    <i class="fab fa-github"></i><span>scvslsravikiran</span>
+                </a>
+                <a href="https://www.researchgate.net/profile/Ravi-Kiran-S-C-V-S-L-S" class="contact-item" target="_blank" rel="noopener">
+                    <i class="fab fa-researchgate"></i><span>ResearchGate Profile</span>
+                </a>
+            </div>
+        </div>
+    </section>
 
-                </ul>
-            </section>
+    <!-- FOOTER -->
+    <footer>
+        <p>Designed &amp; Built by <strong>SCVSLS Ravi Kiran</strong> &middot; 2026</p>
+    </footer>
 
+    <script>
+        // Sticky navbar background
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 50);
+        });
 
-        </article>
-    </main>
+        // Active nav highlight
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.nav-links a');
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(s => {
+                if (window.scrollY >= s.offsetTop - 120) current = s.id;
+            });
+            navLinks.forEach(link => {
+                link.classList.toggle('active', link.getAttribute('href') === '#' + current);
+            });
+        });
+    </script>
 </body>
-
 </html>
